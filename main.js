@@ -49,35 +49,8 @@ app.on("activate", () => {
 function initWindowMenu() {
   const template = [
     {
-      label: "Edit",
-      submenu: [
-        { role: "undo" },
-        { role: "redo" },
-        { type: "separator" },
-        { role: "cut" },
-        { role: "copy" },
-        { role: "paste" },
-        { role: "delete" },
-        { role: "selectall" },
-      ]
-    },
-    {
       label: "View",
       submenu: [
-        {
-          label: "go back",
-          accelerator: "CmdOrCtrl+[",
-          click() {
-            mainWindow.webContents.send("goBack");
-          }
-        },
-        {
-          label: "go forward",
-          accelerator: "CmdOrCtrl+]",
-          click() {
-            mainWindow.webContents.send("goForward");
-          }
-        },
         { role: "reload" }
       ]
     }
