@@ -1,0 +1,26 @@
+{
+  "name": "gpe",
+  "version": "0.1.0",
+  "description": "An Unofficial Gitpod desktop app in Electron",
+  "main": "main.js",
+  "build": {
+    "productName": "gpe",
+    "appId": "gpe"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/kondoumh/mtwe",
+  "keywords": [
+    "Electron",
+    "Gitpod"
+  ],
+  "author": "kondoumh",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^6.0.12",
+    "electron-builder": "^21.2.0"
+  }
+}
