@@ -51,7 +51,13 @@ function initWindowMenu() {
     {
       label: "View",
       submenu: [
-        { role: "reload" }
+        {
+          role: "reload",
+          label: "Dashboard"
+        },
+        { type: "separator" },
+        { role: "copy" },
+        { role: "paste" }
       ]
     }
   ];
