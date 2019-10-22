@@ -5,7 +5,13 @@
   "main": "main.js",
   "build": {
     "productName": "gpe",
-    "appId": "gpe"
+    "appId": "gpe",
+    "mac": {
+      "icon": "icons/mac/gpe.icns"
+    },
+    "win": {
+      "icon": "icons/win/gpe.ico"
+    }
   },
   "scripts": {
     "start": "electron .",
