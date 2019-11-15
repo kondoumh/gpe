@@ -27,7 +27,7 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^7.1.1",
-    "electron-builder": "^21.2.0"
+    "electron-builder": "^22.1.0"
   },
   "dependencies": {
     "electron-store": "^5.1.0"
